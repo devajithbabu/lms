@@ -1,0 +1,55 @@
+#api for trainer register
+###
+POST  http://127.0.0.1:8000/accounts/trainer/register/
+Content-Type: application/json
+
+{
+
+}
+
+#api for student registration
+###
+POST  http://127.0.0.1:8000/accounts/student/register/
+Content-Type: application/json
+
+{
+
+}
+
+#api call for token generation
+###
+POST http://127.0.0.1:8000/accounts/token/
+Content-Type: application/json
+
+{
+    
+}
+
+#api call for updating trainer profile
+###
+put http://127.0.0.1:8000/accounts/trainer/profile/edit/
+Content-Type: application/json
+
+{
+
+}
+
+#api call for updating student profile
+###
+put http://127.0.0.1:8000/accounts/student/profile/edit/
+Content-Type: application/json
+
+{
+    
+}
+
+#api call for viewing trainer profile
+###
+get http://127.0.0.1:8000/accounts/trainer/profile/
+Accept: application/json
+
+
+#api call for viewing student profile
+###
+get http://127.0.0.1:8000/accounts/student/profile/
+Accept: application/json
